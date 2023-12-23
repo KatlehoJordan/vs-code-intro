@@ -112,6 +112,18 @@ Covers:
 
 [link](https://code.visualstudio.com/docs/introvideos/customize)
 
+- Keyboard shortcuts
+  - Can see keyboard shortcuts listed when searching items in the command palette
+  - Can use gear icon next to items in the command palette to configure the keyboard shortcut
+  - Can view keyboard shortcuts as a JSON as well, which is easiest found from the command palette
+  - There are extensions to try to match keyboard shortcuts from other editors (e.g., Vim)
+- VS Code settings
+  - Two levels: User level, Workspace level
+  - Can be viewed via a UI or a JSON
+  - Can configure language-specific settings as well
+- Can configure settings sync and modify what is synced
+  - I have not played enough with this to know if it's easier/more-difficult than simply importing/updating profiles
+
 ## To do
 
 - Create nvim macros and save to lua for:
