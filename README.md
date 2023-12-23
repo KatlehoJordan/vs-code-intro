@@ -1,8 +1,8 @@
 # VS Code intro
 
-For this intro to work, one is expected to have `node` installed.
+For this intro to work, one is expected to have `node` and `python` installed, as well as some specific VS Code extensions.
 
-If one does not wish to install `node`, one can instead launch a VS Code Dev container from this directory. That container will have `node` installed. This dev container definition also includes python vs code extension installed so that you have python linting 'out-of-the-box'.
+If one does not wish to install these, one can instead launch a VS Code Dev container from this directory. That container will have dependencies installed.
 
 ## Intro
 
