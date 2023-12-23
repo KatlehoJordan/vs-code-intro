@@ -1,0 +1,10 @@
+version: "3.9"
+services:
+  node-and-python:
+    build:
+      context: .
+      args:
+        DOCKER_BUILDKIT: 1
+    volumes:
+      - .:/workspaces/vs-code-intro
+    command: /bin/sh -c "while true; do sleep 1; done"

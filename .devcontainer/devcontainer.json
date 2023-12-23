@@ -1,0 +1,17 @@
+{
+    "name": "Basic VS Code features",
+    "dockerComposeFile": [
+        "../docker-compose.yml"
+    ],
+    "service": "node-and-python",
+    "workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-python.python",
+                "ms-vscode.live-server"
+            ]
+        }
+    },
+    "remoteUser": "node"
+}
